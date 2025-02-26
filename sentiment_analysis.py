@@ -25,10 +25,10 @@ nltk.download('punkt')
 
 def clean_text(text):
     
-    # Convert to lowercase
+    # Convert uppercase to lowercase
     text = text.lower()
 
-    # Remove URLs
+    # Remove the URLs
     text = re.sub(r'http\S+|www\S+|https\S+', '', text, flags=re.MULTILINE)
 
     # Remove user mentions
