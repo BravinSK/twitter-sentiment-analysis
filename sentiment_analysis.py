@@ -25,7 +25,7 @@ nltk.download('punkt')
 
 def clean_text(text):
     
-    # Convert uppercase to lowercase
+    # Converting uppercase to lowercase
     text = text.lower()
 
     # Remove the URLs
