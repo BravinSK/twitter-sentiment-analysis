@@ -16,6 +16,7 @@ This project performs sentiment analysis on Twitter data using Python and machin
 - **Flask**: Backend for the web interface.
 - **HTML/CSS/JavaScript**: Frontend for the web interface.
 
+
 ## Installation 
 
 1. **Clone the Repository**:
@@ -38,11 +39,15 @@ This project performs sentiment analysis on Twitter data using Python and machin
 
 8. **Open the Web Interface**:  
    Visit http://127.0.0.1:5000/ in your browser.
+  
    
 ## Usage 
 - Enter a tweet or text in the input box and click "Analyze Sentiment" to see if it's **positive** or **negative**.
 
 ## Dataset 
+-  ```bash
+   https://www.kaggle.com/datasets/kazanova/sentiment140
+   
 - The dataset used for training is `twitter.csv`, which contains labeled tweets (0 = negative, 4 = positive).
 
 ## Results 
