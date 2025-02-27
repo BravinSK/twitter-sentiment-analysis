@@ -10,7 +10,7 @@ import string
 import re
 
 # Load the dataset
-df = pd.read_csv('twitter.csv', encoding='latin-1', header=None)
+df = pd.read_csv('../twitter.csv', encoding='latin-1', header=None)
 df.columns = ['target', 'id', 'date', 'flag', 'user', 'text']
 
 # Display the first 5 rows
@@ -66,6 +66,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 # Initialize the model
 model = MultinomialNB()
+
 # Train the model
 model.fit(X_train, y_train)
 
